@@ -51,7 +51,7 @@ public class MathUtilityTest {
         
     }
     
-    
+   
     
     //hàm getF() ta thiết kế có 2 tình huống xử lí
     //1. đưa data tử tế trong[0..20] -> tính được n! đúng - done

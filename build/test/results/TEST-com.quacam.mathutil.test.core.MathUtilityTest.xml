@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Dell" name="com.quacam.mathutil.test.core.MathUtilityTest" skipped="0" tests="4" time="0.067" timestamp="2024-05-26T06:23:09">
+<testsuite errors="0" failures="1" hostname="Dell" name="com.quacam.mathutil.test.core.MathUtilityTest" skipped="0" tests="4" time="0.067" timestamp="2024-05-26T06:50:44">
   <properties>
     <property name="libs.spring-framework300.classpath" value="D:\Download\NetBeans-17\netbeans\platform\modules\org-apache-commons-logging.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\cglib-2.2.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.18.RELEASE.jar;D:\Download\NetBeans-17\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.18.RELEASE.jar" />
     <property name="javac.test.classpath" value=":build/classes:D:\Download\NetBeans-17\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:D:\Download\NetBeans-17\netbeans\platform\modules\ext\junit-4.13.2.jar" />
@@ -17,7 +17,7 @@
     <property name="libs.jsp-compilation.src" value="" />
     <property name="libs.JWSAntTasks.javadoc" value="" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.quacam.mathutil.test.core.MathUtilityTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Term_5\SWT301\Internet\math-util\build\test\results\TEST-com.quacam.mathutil.test.core.MathUtilityTest.xml crashfile=D:\Term_5\SWT301\Internet\math-util\build\junitvmwatcher3695776151651774032.properties propsfile=D:\Term_5\SWT301\Internet\math-util\build\junit17023553492261046355.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.quacam.mathutil.test.core.MathUtilityTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Term_5\SWT301\Internet\math-util\build\test\results\TEST-com.quacam.mathutil.test.core.MathUtilityTest.xml crashfile=D:\Term_5\SWT301\Internet\math-util\build\junitvmwatcher9737200867588058553.properties propsfile=D:\Term_5\SWT301\Internet\math-util\build\junit10890775351882764189.properties" />
     <property name="jdk.debug" value="release" />
     <property name="libs.spring-framework300.src" value="" />
     <property name="javadoc.use" value="true" />
@@ -104,7 +104,7 @@
     <property name="debug-transport-by-os" value="dt_shmem" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.javaee-api-8.0.javadoc" value="D:\Download\NetBeans-17\netbeans\enterprise\docs\javaee-doc-api.jar" />
-    <property name="tmp.manifest.file" value="D:\Term_5\SWT301\Internet\math-util\build\null1328461128" />
+    <property name="tmp.manifest.file" value="D:\Term_5\SWT301\Internet\math-util\build\null1274683745" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="unnamed.module.internal" value="true" />
     <property name="libs.jakartaee-api-10.0.javadoc" value="D:\Download\NetBeans-17\netbeans\enterprise\docs\jakartaee10-doc-api.jar" />
@@ -423,8 +423,8 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="D:\Download\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;D:\Download\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;D:\Download\NetBeans-17\netbeans\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
   </properties>
-  <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenWrongArgumentThrowsException" time="0.003" />
-  <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenWrongArgumentThrowsException_LambdaVersion" time="0.002" />
+  <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenWrongArgumentThrowsException" time="0.002" />
+  <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenWrongArgumentThrowsException_LambdaVersion" time="0.001" />
   <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenWrongArgumentThrowsException_TryCatch" time="0.0" />
   <testcase classname="com.quacam.mathutil.test.core.MathUtilityTest" name="testGetFactorialGivenRightArgumentReturnsWell" time="0.003">
     <failure message="expected:&lt;120&gt; but was:&lt;720&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;120&gt; but was:&lt;720&gt;
