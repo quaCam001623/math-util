@@ -31,7 +31,7 @@ public class Main {
         long actual = MathUtil.getFactorial(n);
         System.out.println("5! = " + expected + " expected");
         System.out.println("5! = " + actual + " actual");
-        System.out.println(1*2*3*4*5);
+        
         
         
     }

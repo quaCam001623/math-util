@@ -24,21 +24,36 @@ public class MathUtil {
     //21 giai thừa tràn kiểu long
     // bài này quy ước tính n! trong khoảng 0..20
     
+//    public static long getFactorial(int n){
+//        if(n < 0 || n > 20)
+//            throw new IllegalArgumentException("Invalid argument. N must be between 0..20");
+//        
+//        if(n == 0 || n == 1)
+//            return 1; // kết thúc luôn nếu nhận giá trị đặc biệt
+//        
+//        long product = 1; //tích nhân dồn, thuật toán con heo đất, ốc bưu nhồi thịt
+//        for (int i = 2; i <= n; i++) {
+//            product *= i;
+//        }
+//        return product;
+//    }
+    
+    //Học về đệ quy 
+    //Là hiện tượng gọi lại chính mình với 1 quy mô khác
+    //VD: con búp bê Nga, giống nhau và lồng trong nhau
+    //búp bê to, nhỏ hơn, nhỏ nhỏ hơn, nhỏ hơn nữa... đến điểm dừng
+    
     public static long getFactorial(int n){
         if(n < 0 || n > 20)
-            throw new IllegalArgumentException("Invalid argument. N must be between 0..20");
+            throw new IllegalArgumentException("n must be between 0..20 .Plz");
         
         if(n == 0 || n == 1)
-            return 1; // kết thúc luôn nếu nhận giá trị đặc biệt
+            return 1; 
         
-        long product = 1; //tích nhân dồn, thuật toán con heo đất, ốc bưu nhồi thịt
-        for (int i = 2; i <= n; i++) {
-            product *= i;
-        }
+        return n * getFactorial(n-1); //công thức đệ quy
+       
         
-        return product;
     }
-    
     
     
 }

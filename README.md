@@ -4,6 +4,8 @@
 ### You will find in this repo the following stuff: 
 * The Assignment is about the web to sell clothes project
 * In that, you see a lot of jsp file
+* GitHub Action to demonstrate the Continuous Integration(CI) technique
+* Regression Test
 * ...
 
 ###Screenshots
